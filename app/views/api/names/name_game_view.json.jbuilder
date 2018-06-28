@@ -4,3 +4,4 @@ if @message_key[0].downcase == "a"
 end
 json.guess_game_message @guess_game_message
 json.result_message @message
+p @user_input
